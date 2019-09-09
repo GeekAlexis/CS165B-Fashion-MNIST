@@ -1,7 +1,10 @@
 # CS165B-Fashion-MNIST
-Competition in CS165B by Prof. William Wang
+Class Competition in CS 165B designed by Professor William Wang
 
-Accuracy on the test data set: 94.8%
+## CNN model
+- 4-Conv and 3-FC with Relu activation, dropout and batch normalization
+- Horizontal flip, shift, rotate and zoom augmentation used to reduce overfitting and balance training data
+- Accuracy on the test data set: 94.8%
 
 Use the following URL if the notebook cannot be opened: 
 
