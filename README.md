@@ -1,6 +1,4 @@
 # CS165B-Fashion-MNIST
-Class Competition in CS 165B
-
 ## CNN model
 - 4-Conv and 3-FC with Relu activation, dropout and batch normalization
 - 1/5 of the training data extracted as validation data to reduce overfitting
