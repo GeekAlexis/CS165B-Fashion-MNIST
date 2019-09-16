@@ -1,5 +1,5 @@
 # CS165B-Fashion-MNIST
-Class Competition in CS 165B designed by Professor William Wang
+Class Competition in CS 165B designed
 
 ## CNN model
 - 4-Conv and 3-FC with Relu activation, dropout and batch normalization
