@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 def load_test_data(size):
-  test_data_dir = os.path.join(os.getcwd(), 'hw4_test')
+  test_data_dir = os.path.join(os.getcwd(), 'test')
   imgs = [cv2.imread(os.path.join(test_data_dir, str(i) + '.png'), 0).reshape(28, 28, 1) for i in range(size)]
   return np.array(imgs, dtype='float32')
 
